@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap');
 
-*{
-    margin: 200;
-    padding: 200;
+body{
+    margin: 0;
+    padding: 0;
+
 }
+
+body{
+    background: url("./../../IMG2/tarea1.1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 header{   
     border-style: dashed;
     border-color: #F70446;
@@ -16,14 +26,6 @@ header{
     font-family: "Grenze Gotisch" sans-serif;
     font-size: 40px;
     font-style: italic;
-}
-
-section{
-    background: url("./../PRACTICA1/IMG2/tarea1.png");
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .sec1{

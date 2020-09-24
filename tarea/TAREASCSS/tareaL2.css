@@ -5,6 +5,10 @@
     
 }
 
+#dat{
+    background: #7E05F7;
+}
+
 header{
     text-align: center;
     margin: 2px 2px;
@@ -21,7 +25,7 @@ span{
 }
 
 body{
-    background: url("./../PRACTICA1/IMG2/tarea2.2.jpg");
+    background: url("./../../IMG2/tarea2.2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*pseudoelemento*/
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+/*se crea una clase titulos, donde se van a acomodar dos subtitulos de manera horizontal*/
+.titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*se crea una clase flex, donde se van a acomodar dos textos de manera horizontal*/
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.columna > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* .flex > .columnareversa{
+    flex-direction: column-reverse;
+} */
+
+.columnareversa > div{
+    width: 30px;
+    height: 30px;
+    background: cornflowerblue;
+    color: #000000;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 20px;
+}
