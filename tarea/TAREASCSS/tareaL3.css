@@ -9,7 +9,7 @@ body{
 }
 
 span{
-    background: #969797;
+    background: #000000;
 }
 
 header{
@@ -82,4 +82,80 @@ header{
     margin: 5px 5px;
     width: 50%;
     margin-left: 20%;
+}
+
+#curri{
+    color: darkblue;
+}
+
+.name{
+    color: #ECF705 ;
+}
+
+.fecha{
+    color: #ECF705 ;
+}
+
+.lugar{
+    color: #ECF705 ;
+}
+
+.uni{
+    color: #ECF705 ;
+}
+
+.insti{
+    color: #ECF705 ;
+}
+
+.escuela{
+    color: #ECF705 ;
+}
+
+.one{
+    color: #ECF705 ;
+}
+
+.two{
+    color: #ECF705 ;
+}
+
+.tree{
+    color: #ECF705 ;
+}
+
+.bruce{
+    color: #06F218 ;
+}
+
+.mayo{
+    color: #06F218 ;
+}
+
+.city{
+    color: #06F218 ;
+}
+
+.espanta{
+    color: #06F218 ;
+}
+
+.dos{
+    color: #06F218 ;
+}
+
+.primaria{
+    color: #06F218 ;
+}
+
+.enel{
+    color: #06F218 ;
+}
+
+.caza{
+    color: #06F218 ;
+}
+
+.paro{
+    color: #06F218 ;
 }

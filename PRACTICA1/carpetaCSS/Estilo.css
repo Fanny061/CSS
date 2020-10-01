@@ -14,7 +14,7 @@ section{
     box-sizing: border-box; /*se le da la forma*/
 }
 .sec1{
-    background: url("./../IMG2/11111.jpg"); /*se utiliza para agregar una imagen de fondo*/
+    background: url("./../../IMG2/11111.jpg"); /*se utiliza para agregar una imagen de fondo*/
     background-repeat: no-repeat; /*indicamos que la imagen no se repita*/
     background-size: cover; /*la imagen cubra el tamaño de la seleccion*/
     background-position: center; /*indicamos la posicion de la imagen*/
@@ -22,7 +22,7 @@ section{
 }
 
 .sec2{
-    background: url("./../IMG2/22222.jpg");
+    background: url("./../../IMG2/22222.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@ section{
 }
 
 .sec3{
-    background: url("./../IMG2/3333.jpg");
+    background: url("./../../IMG2/3333.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
